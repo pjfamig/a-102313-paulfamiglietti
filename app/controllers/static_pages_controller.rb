@@ -4,6 +4,7 @@ class StaticPagesController < ApplicationController
   end
   
   def about
+    @user = "pjfamig@gmail.com"
   end
   
   def contact
