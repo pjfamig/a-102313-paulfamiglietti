@@ -33,7 +33,7 @@ module A102313Paulfamiglietti
     }
 
     config.action_mailer.default_url_options = {
-      :host => "paulfamiglietti.com"
+      :host => "herokuapps.com"
     }
   end
 end
