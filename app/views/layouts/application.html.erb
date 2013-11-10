@@ -8,13 +8,25 @@
   		<%= csrf_meta_tags %>
 		<%= render 'layouts/shim' %>
 	</head>
-	<body>
-		<div class="container">		
+<body>
+	<div id="container">		
 		
-		<%= render 'layouts/header' %>
-		
-		<%= yield %>
-	
+	<section>
+		<div id="side">
+			<%= render 'layouts/photo' %>
 		</div>
-	</body>
+		<div id="main">
+			<%= render 'layouts/header' %>
+			
+			<%= yield %>
+			
+			<%= render 'layouts/nav' %>
+			
+		</div>
+	</section>
+			
+	<%= render 'layouts/footer' %>
+	
+	</div>
+</body>
 </html>

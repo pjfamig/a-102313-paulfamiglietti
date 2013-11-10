@@ -20,5 +20,20 @@ module A102313Paulfamiglietti
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+  
+  
+    config.action_mailer.smtp_settings = {
+      :address              => "mail.paulfamiglietti.com",
+      :port                 => 26,
+      :domain               => "paulfamiglietti.com",
+      :user_name            => "paul@paulfamiglietti.com",
+      :password             => "fr0gger5",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+      :host => "paulfamiglietti.com"
+    }
   end
 end
