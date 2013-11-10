@@ -23,8 +23,8 @@ module A102313Paulfamiglietti
   
   
     config.action_mailer.smtp_settings = {
-      :address              => "mail.paulfamiglietti.com",
-      :port                 => 26,
+      :address              => "box694.bluehost.com",
+      :port                 => 465,
       :domain               => "paulfamiglietti.com",
       :user_name            => "paul@paulfamiglietti.com",
       :password             => "fr0gger5",
