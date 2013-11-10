@@ -23,8 +23,8 @@ module A102313Paulfamiglietti
   
   
     config.action_mailer.smtp_settings = {
-      :address              => "box694.bluehost.com",
-      :port                 => 465,
+      :address              => "mail.paulfamiglietti.com",
+      :port                 => 26,
       :domain               => "paulfamiglietti.com",
       :user_name            => "paul@paulfamiglietti.com",
       :password             => "fr0gger5",
@@ -33,7 +33,7 @@ module A102313Paulfamiglietti
     }
 
     config.action_mailer.default_url_options = {
-      :host => "herokuapps.com"
+      :host => "localhost:3000"
     }
   end
 end
