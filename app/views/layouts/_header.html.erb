@@ -1,5 +1,7 @@
+<div id="logo">Paul Famiglietti</div>
 <ul>
-<li><%= link_to "Home",   root_path %></li>
-<li><%= link_to "About",   about_path %></li>
-<li><%= link_to "Contact",   contact_path %></li>
+<li><%= link_to_unless_current "Home",   root_path %></li>
+<li><%= link_to_unless_current "About",   about_path %></li>
+<li><%= link_to_unless_current "Blog", blog_path %>
+<li><%= link_to_unless_current "Contact",   contact_path %></li>
 </ul>
