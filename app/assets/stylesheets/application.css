@@ -14,11 +14,16 @@
 
 body {
 	margin-top: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;  
 }
+
 
 a {
 	font-family: Georgia, serif;
-	color: #009933;
+  color: #0088cc;
 }
 a:hover {
 	text-decoration: none;
@@ -56,11 +61,11 @@ section #main {
 .button {
   float: left;
   margin-right: 10px;
-  font-family: Georgia, serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
   color: #FFF;
-  background-color: #009933;
+  background-color: #0088cc;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -79,7 +84,7 @@ section #main {
   background-color: #999;
   float: left;
   margin-right: 10px;
-  font-family: Georgia, serif;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   text-decoration: none;
   color: #FFF;
@@ -96,7 +101,7 @@ section #main {
 }
 
 .button:hover {
-  background-color: #00CC33;
+  background-color: #005580;
   text-decoration: none;
   cursor: pointer;
 }
