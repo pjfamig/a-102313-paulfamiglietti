@@ -3,16 +3,12 @@ A102313Paulfamiglietti::Application.routes.draw do
   match '/about', to: 'static_pages#about', via: 'get'
   match '/blog', to: 'static_pages#blog', via: 'get'
   
-  
-  #match 'contact', to: 'contact', :via => [:get, :post]
-  #match "/contact" => "contact#index", via: [:get, :post]
-  
+    
   #match 'contact' => 'contact#new', :as => 'contact', :via => :get
   #match 'contact' => 'contact#create', :as => 'contact', :via => :post
   
   get 'contact', to: 'contact#new'
   post 'contact', to: 'contact#create'
-  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
