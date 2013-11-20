@@ -1,6 +1,8 @@
-<h1>Blog</h1>
+<h2>Blog</h2>
 <% @directories.each do |file| %>
 	<% contents = File.read(file) %>
-	<p><%= contents %></p>
+	<h1><%= link_to contents %></h1>
+	<h2>Posted on 11/10/13</h2>
+	<br>
 <% end %>
 

@@ -1,24 +1,16 @@
-<h1>Contact</h1>
+<h2>Contact me</h2>
 
 <%= form_for @message, :url => contact_path, :method => :post do |form| %>
     
 	<div class="field">
-      <%= form.label :name %><br>
-      <%= form.text_field :name %>
+      <%= form.text_field :name, placeholder: "Your name:" %>
     </div>
     
     <div class="field">
-      <%= form.label :email %><br>
-      <%= form.text_field :email %>
-    </div>
+      <%= form.text_field :email, placeholder: "Email:" %>
+    </div>    
     <div class="field">
-      <%= form.label :subject %><br>
-      <%= form.text_field :subject %>
-    </div>
-    
-    <div class="field">
-      <%= form.label :body %><br>
-      <%= form.text_area :body %>
+      <%= form.text_area :body, placeholder: "Enter a message..." %>
     </div>
   
     <%= form.submit "Send" %>
