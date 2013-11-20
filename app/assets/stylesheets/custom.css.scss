@@ -54,8 +54,6 @@ p {
 
 
 
-
-
 /* container */
 
 .container-fluid {
@@ -121,16 +119,35 @@ p {
   background-color: #005580;
   text-decoration: none;
   cursor: pointer;
+  color: #FFF;
+  text-decoration: none; 
+}
+
+.button_on:hover {
+  background-color: #999;
+  text-decoration: none;
 }
 
 
 .button a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.button_on:link {
+  color: #FFF;
+  text-decoration: none;
+
+}
+
+
+.button a:visited {
 	color: #FFF;
 	text-decoration: none;
 }
 
-.button a:visited {
-	color: #FFF;
+.button_on a:visited {
+  color: #FFF;  
 	text-decoration: none;
 }
 
@@ -139,9 +156,20 @@ p {
 	text-decoration: none;
 }
 
+.button_on a:hover {
+color: #FFF;
+text-decoration: none;
+}
+
 .button a:active {
 	color: #FFF;
 	text-decoration: none;
+}
+
+.button_on a:active {
+color: #FFF;
+text-decoration: none;
+
 }
 
 
@@ -178,6 +206,10 @@ footer ul li {
   margin-left: 10px;
 }
 
+textarea {
+  width: 325px;
+  height: 150px;
+}
 
 
 

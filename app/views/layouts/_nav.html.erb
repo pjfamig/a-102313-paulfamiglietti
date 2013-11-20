@@ -1,30 +1,28 @@
 
 
 <div id="nav">
-	
-	
-<%= 
-	link_to_unless_current("Home", root_path, :class => 'button') do 
-	  link_to("Home", root_path, :class => 'button_on')
-	end
-%>
 
-<%= 
-	link_to_unless_current("About", about_path, :class => 'button') do 
-	  link_to("About", about_path, :class => 'button_on')
-	end
-%>
+<!-- ><div class="button">Home</div></a>
+<a href="/about"><div class="button">About</div></a>
+<a href="/blog"><div class="button">Blog</div></a>
+<a href="/contact"><div class="button">Contact</div></a>
+-->	
 
-<%= 
-	link_to_unless_current("Blog", blog_path, :class => 'button') do 
-	  link_to("Blog", blog_path, :class => 'button_on')
-	end
-%>
+<%= link_to_unless_current("Home", root_path, :class => 'button') do %>
+	<div class="button_on">Home</div>	  
+<% end %>
 
-<%= 
-	link_to_unless_current("Contact", contact_path, :class => 'button') do 
-	  link_to("Contact", contact_path, :class => 'button_on')
-	end
-%>
+<%= link_to_unless_current("About", about_path, :class => 'button') do %>
+	<div class="button_on">About</div>	  
+<% end %>
+
+<%= link_to_unless_current("Blog", blog_path, :class => 'button') do %>
+	<div class="button_on">Blog</div>	  
+<% end %>
+
+<%= link_to_unless_current("Contact", contact_path, :class => 'button') do %>
+	<div class="button_on">Contact</div>	  
+<% end %>
+
 
 </div>
