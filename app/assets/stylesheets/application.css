@@ -13,8 +13,8 @@
  */
 
 body {
-	margin-top: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333333;
   font-size: 14px;
   line-height: 20px;  
@@ -38,15 +38,17 @@ a:hover {
 
 
 section {
-    margin: auto;
 }
+
 section #side {
-    width: 150px;
-    float: left;
+    width: 170px;
+	float: left;
 }
+
 section #main {
-    margin-left: 150px;
+    margin-left: 170px;
 }
+
 
 #nav {
 	margin-top: 30px;

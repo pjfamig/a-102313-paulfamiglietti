@@ -1,8 +1,10 @@
 A102313Paulfamiglietti::Application.routes.draw do
+  get "blog/index"
   root 'static_pages#home'
   match '/about', to: 'static_pages#about', via: 'get'
-  match '/blog', to: 'static_pages#blog', via: 'get'
+  #match '/blog', to: 'static_pages#blog', via: 'get'
   
+  match '/blog', to: 'blog#index', via: 'get'
     
   #match 'contact' => 'contact#new', :as => 'contact', :via => :get
   #match 'contact' => 'contact#create', :as => 'contact', :via => :post
