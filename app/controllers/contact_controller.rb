@@ -12,6 +12,7 @@ class ContactController < ApplicationController
     if @message.valid?
       NotificationsMailer.new_message(@message).deliver
       redirect_to(root_path, :notice => "Message was successfully sent.")
+      #rewrite this redirect to render a 'success' message
     else
       flash.now.alert = "Please fill all fields."
       render :new

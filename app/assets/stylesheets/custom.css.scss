@@ -9,6 +9,7 @@ html {
 body {
   padding-top: 30px;
   background-color: #E6E6E6;
+  padding-bottom: 30px;
 }
 
 section {
@@ -17,6 +18,8 @@ section {
 
 textarea {
   resize: vertical;
+  width: 325px;
+  height: 150px;
 }
 
 .center {
@@ -49,7 +52,7 @@ h2 {
 
 p {
   font-size: 1.1em;
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 
@@ -204,11 +207,6 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
-}
-
-textarea {
-  width: 325px;
-  height: 150px;
 }
 
 
