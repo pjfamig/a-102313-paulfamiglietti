@@ -64,6 +64,9 @@ p {
 	margin: auto;
 	padding: 30px;
 	background-color: #FFF;
+	-moz-box-shadow:    3px 2px 2px 0px #999;
+    -webkit-box-shadow: 3px 2px 2px 0px #666;
+    box-shadow:         3px 2px 2px 0px #CCC;
 }
 
 

@@ -7,15 +7,18 @@
 <% end %>
 	
 	<div class="field">
-      <%= form.text_field :name, placeholder: "Your name:" %>
+      <%= form.text_field :name, placeholder: "Name:" %>
     </div>
     
     <div class="field">
       <%= form.text_field :email, placeholder: "Email:" %>
     </div>    
+	<div class="field">
+	  <%= form.select :subject, options_for_select(['Subject (select one)','Coding', 'Legal', 'Bikes', 'Other']) %>
+	</div>
     <div class="field">
       <%= form.text_area :body, placeholder: "Enter a message..." %>
     </div>
   
-    <%= form.submit "Send" %>
+    <%= form.submit "Send", :class => 'btn btn-small btn-success' %>
 <% end %>
